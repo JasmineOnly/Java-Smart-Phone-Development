@@ -1,0 +1,188 @@
+/* 
+ * Author : Yuanyuan Ma
+ * Andrew ID : yuanyuam
+ **/
+
+******************************* Coin Toss ********************************
+
+Simulation 1 : Toss the coin 20 Times
+
+Output：
+
+Simulation1:Toss the coin 20 Times
+
+The side that the coin is initially facing up: tails
+
+The side of the coin that is facing up is : heads
+The side of the coin that is facing up is : tails
+The side of the coin that is facing up is : tails
+The side of the coin that is facing up is : heads
+The side of the coin that is facing up is : heads
+The side of the coin that is facing up is : tails
+The side of the coin that is facing up is : heads
+The side of the coin that is facing up is : tails
+The side of the coin that is facing up is : tails
+The side of the coin that is facing up is : heads
+The side of the coin that is facing up is : tails
+The side of the coin that is facing up is : heads
+The side of the coin that is facing up is : heads
+The side of the coin that is facing up is : tails
+The side of the coin that is facing up is : tails
+The side of the coin that is facing up is : tails
+The side of the coin that is facing up is : heads
+The side of the coin that is facing up is : tails
+The side of the coin that is facing up is : heads
+The side of the coin that is facing up is : heads
+ 
+The number of times heads is facing up : 10
+the number of times tails is facing up : 10
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Simulation 2 : Toss the coin 0 Time (Not toss at all)
+
+Output:
+
+Simulation1:Toss the coin 0 Time (Not toss at all)
+
+The side that the coin is initially facing up: tails
+
+ 
+Not toss at all
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Simulation 3 : Toss the coin -1 Time (Illegal toss time)
+
+Output:
+
+Simulation1:Toss the coin 0 Time (Not toss at all)
+
+The side that the coin is initially facing up: tails
+
+ 
+Not toss at all
+
+
+
+********************** Parking Ticket Simulator ***************************
+
+Simulation 1 : Parked car is with in the parking time purchased
+
+Output:
+
+Simulation 1 : Parked car is with in the parking time purchased
+
+Parking Time: 30 Minutes
+Purchased Time: 60 Minutes
+
+This car is legally Parking
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Simulation 2 : Parked car is just in the parking time purchased
+
+Output:
+
+Simulation 2 : Parked car is just in the parking time purchased
+
+Parking Time: 60 Minutes
+Purchased Time: 60 Minutes
+
+This car is legally Parking
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Simulation 3 : Parked car is out of the parking time purchased (Ticketing under an hour)
+
+Output: 
+
+Simulation 3 : Parked car is out of the parking time purchased (Ticketing under an hour)
+
+Parking Time: 90 Minutes
+Purchased Time: 60 Minutes
+
+****** Illegal Parking Fine Ticket ******
+
+Illegal Parking Car Information:
+Make: Audi
+Model: A8
+Color: Black
+Licence Number: JSP18641
+
+The car's time has expired for 30 Minutes
+
+Illegal Parking Fine : $25
+
+
+Ticket Issued Officer:
+Name : Mike
+Badge Number : 007
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Simulation 4 : Parked car is out of the parking time purchased (Ticketing an hour)
+
+Output:
+
+Simulation 4 : Parked car is out of the parking time purchased (Ticketing an hour)
+
+Parking Time: 120 Minutes
+Purchased Time: 60 Minutes
+
+****** Illegal Parking Fine Ticket ******
+
+Illegal Parking Car Information:
+Make: Audi
+Model: A8
+Color: Black
+Licence Number: JSP18641
+
+The car's time has expired for 60 Minutes
+
+Illegal Parking Fine : $25
+
+
+Ticket Issued Officer:
+Name : Mike
+Badge Number : 007
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Simulation 5 : Parked car is out of the parking time purchased (Ticketing more than an hour)
+
+Output:
+
+Simulation5 : Parked car is out of the parking time purchased (Ticketing more than an hour)
+
+Parking Time: 210 Minutes
+Purchased Time: 60 Minutes
+
+****** Illegal Parking Fine Ticket ******
+
+Illegal Parking Car Information:
+Make: Audi
+Model: A8
+Color: Black
+Licence Number: JSP18641
+
+The car's time has expired for 150 Minutes
+
+Illegal Parking Fine : $45
+
+
+Ticket Issued Officer:
+Name : Mike
+Badge Number : 007
+
+
+
+
+
+
+
+
+
+ 
+
+

@@ -1,23 +1,26 @@
-package ParkingTicketSimulator;
+package parkingticketsimulator;
 
 /*
  * @Author:  Yuanyuan Ma
  * @Andrew ID : yuanyuam
  * 
- * Simulate the case that parked car is with in the  parking time purchased
- * If the program runs correctly, it will prompt the car is legally parking
+ * Simulate the case that parked car is out of the  parking time purchased 
+ * Ticketing 1 hour
+ * If the program runs correctly, it will prompt the illegal parking ticket
+ * and the fine should be $25
  */
 
-public class Simulation1 {
+public class Simulation4 {
 	public static void main(String[] args) {
 		System.out
-				.println("Simulation 1 : Parked car is with in the parking time purchased"
+				.println("Simulation 4 : Parked car is out of the parking time purchased "
+						+ " (Ticketing an hour)"
 						+ "\n");
 
 		/*
 		 * Instance class of ParkedCar
 		 */
-		ParkedCar pc = new ParkedCar("Audi", "A8", "Black", "JSP18641", 30);
+		ParkedCar pc = new ParkedCar("Audi", "A8", "Black", "JSP18641", 120);
 
 		/*
 		 * Instance class of ParkingMeter

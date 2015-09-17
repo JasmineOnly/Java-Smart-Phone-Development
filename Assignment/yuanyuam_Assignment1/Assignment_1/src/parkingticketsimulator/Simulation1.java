@@ -1,23 +1,23 @@
-package ParkingTicketSimulator;
+package parkingticketsimulator;
 
 /*
  * @Author:  Yuanyuan Ma
  * @Andrew ID : yuanyuam
  * 
- * Simulate the case that parked car is just in the  parking time purchased
+ * Simulate the case that parked car is with in the  parking time purchased
  * If the program runs correctly, it will prompt the car is legally parking
  */
 
-public class Simulation2 {
+public class Simulation1 {
 	public static void main(String[] args) {
 		System.out
-				.println("Simulation 2 : Parked car is just in the parking time purchased"
+				.println("Simulation 1 : Parked car is with in the parking time purchased"
 						+ "\n");
 
 		/*
 		 * Instance class of ParkedCar
 		 */
-		ParkedCar pc = new ParkedCar("Audi", "A8", "Black", "JSP18641", 60);
+		ParkedCar pc = new ParkedCar("Audi", "A8", "Black", "JSP18641", 30);
 
 		/*
 		 * Instance class of ParkingMeter

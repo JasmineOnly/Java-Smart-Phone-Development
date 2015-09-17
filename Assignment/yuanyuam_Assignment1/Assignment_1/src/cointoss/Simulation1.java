@@ -1,20 +1,20 @@
-package CoinToss;
+package cointoss;
 
 /*
  * @Author:  Yuanyuan Ma
  * @Andrew ID : yuanyuam 
- * Toss 0 times 
+ * Toss 20 times 
  */
 
-public class Simulation2 {
+public class Simulation1 {
 	public static void main(String[] args) {
 
-		System.out.println("Simulation1:Toss the coin 0 Time (Not toss at all)" + "\n");
+		System.out.println("Simulation1:Toss the coin 20 Times" + "\n");
 
 		/*
 		 * Instances variables
 		 */
-		int tossTimes = 0; // total toss number
+		int tossTimes = 20; // total toss number
 		int headsTimes = 0; // total number of heads
 		int tailsTimes = 0; // total number of tails
 
@@ -25,7 +25,7 @@ public class Simulation2 {
 		System.out.println("The side that the coin is initially facing up: " + testCoin.getSideUp()
 				+ "\n");
 
-		// toss 0 times, display the facing up side each time
+		// toss 20 times, display the facing up side each time
 		for (int count = 0; count < tossTimes; count++) {
 			testCoin.toss();
 			System.out.println("The side of the coin that is facing up is : "
@@ -42,7 +42,7 @@ public class Simulation2 {
 		if (tossTimes == 0) {
 			System.out.println("Not toss at all");
 		} else if (tossTimes < 0) {
-			System.out.println("Illegal toss times, Please reset!");
+			System.out.println("Illegal toss times");
 		} else {
 			System.out.println("The number of times heads is facing up : " + headsTimes);
 			System.out.println("the number of times tails is facing up : " + tailsTimes);

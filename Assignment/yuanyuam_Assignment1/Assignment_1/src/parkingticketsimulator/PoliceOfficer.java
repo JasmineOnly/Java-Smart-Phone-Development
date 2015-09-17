@@ -1,4 +1,4 @@
-package ParkingTicketSimulator;
+package parkingticketsimulator;
 
 public class PoliceOfficer {
 	/*

@@ -1,4 +1,4 @@
-package CoinToss;
+package cointoss;
 
 /*
  * @Author:  Yuanyuan Ma

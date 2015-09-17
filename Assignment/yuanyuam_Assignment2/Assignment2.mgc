@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="indi.yuanyuam.assign2.statistics.Statistics" x="82" y="199">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Extension destinationClassName="indi.yuanyuam.assign2.abstractclass.Stat"/>
+        <Extension destinationClassName="indi.yuanyuam.assign2.interfaces.Printer"/>
+        <Communication destinationClassName="indi.yuanyuam.assign2.student.Student"/>
+    </Class>
+    <Class name="indi.yuanyuam.assign2.student.Student" x="284" y="323">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Extension destinationClassName="indi.yuanyuam.assign2.abstractclass.People"/>
+        <Extension destinationClassName="indi.yuanyuam.assign2.interfaces.Printer"/>
+    </Class>
+    <Class
+        name="indi.yuanyuam.assign2.exception.StudentNumExceedBoundException"
+        x="100" y="139">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="indi.yuanyuam.assign2.test.TestUtil" x="165" y="426">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="indi.yuanyuam.assign2.student.Student"/>
+        <Communication destinationClassName="indi.yuanyuam.assign2.util.Util"/>
+    </Class>
+    <Class name="indi.yuanyuam.assign2.test.TestStatistic" x="110" y="16">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="indi.yuanyuam.assign2.statistics.Statistics"/>
+        <Communication destinationClassName="indi.yuanyuam.assign2.student.Student"/>
+    </Class>
+    <Class
+        name="indi.yuanyuam.assign2.exception.StudentScoreNumException"
+        x="-3" y="351">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="indi.yuanyuam.assign2.abstractclass.Stat" x="620" y="231">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Extension destinationClassName="indi.yuanyuam.assign2.student.Student"/>
+    </Class>
+    <Class name="indi.yuanyuam.assign2.util.Util" x="562" y="369">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="indi.yuanyuam.assign2.student.Student"/>
+    </Class>
+    <Class name="indi.yuanyuam.assign2.driver.Run" x="418" y="428">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="indi.yuanyuam.assign2.statistics.Statistics"/>
+        <Communication destinationClassName="indi.yuanyuam.assign2.student.Student"/>
+        <Communication destinationClassName="indi.yuanyuam.assign2.util.Util"/>
+    </Class>
+    <Class name="indi.yuanyuam.assign2.abstractclass.People" x="416" y="62">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="indi.yuanyuam.assign2.test.TestStudent" x="208" y="66">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="indi.yuanyuam.assign2.student.Student"/>
+    </Class>
+    <Class name="indi.yuanyuam.assign2.interfaces.Printer" x="552" y="47">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+</ClassDiagram>

@@ -23,6 +23,8 @@ public class Coin {
 	/*
 	 * toss()
 	 * Method that randomly determines the side of the coin that is facing up 
+	 * As I had started part b when I saw the submission requirement (submit part A and part b separately
+	 * ), should I redo the part A?
 	 */
 	public void toss(){
 		double random = Math.random();

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="indi.yuanyuam.proj1.test.TestAutomobileOption" x="218" y="138">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.Automobile"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.util.ReadFile"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.model.OptionSet" x="26" y="213">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association
+            destinationClassName="indi.yuanyuam.proj1.model.OptionSet.Option"
+            endpointName="opt[]" kind="Simple"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.OptionSet.Option"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.driver.Driver" x="260" y="196">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.Automobile"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.util.ReadFile"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.model.Automobile" x="391" y="264">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association
+            destinationClassName="indi.yuanyuam.proj1.model.OptionSet"
+            endpointName="optionSetList" kind="Simple"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.OptionSet"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.OptionSet.Option"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.test.TestAutomobileOptionSet"
+        x="280" y="63">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.Automobile"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.util.ReadFile"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.util.ReadFile" x="463" y="135">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.Automobile"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.model.OptionSet.Option" x="45" y="39">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+</ClassDiagram>

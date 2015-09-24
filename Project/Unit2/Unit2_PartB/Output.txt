@@ -1,0 +1,369 @@
+/* 
+ * Author : Yuanyuan Ma
+ * Andrew ID : yuanyuam
+ **/
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Output of “Driver.java” %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Focus Wagon ZTW
+Base Price :18445
+
+Color:
+Fort Knox Gold Clearcoat Metallic:Price 0
+Liquid Grey Clearcoat Metallic:Price 0
+Infra-Red Clearcoat:Price 0
+Grabber Green Clearcoat Metallic:Price 0
+Sangria Red Clearcoat Metallic:Price 0
+French Blue Clearcoat Metallic:Price 0
+Twilight Blue Clearcoat Metallic:Price 0
+CD Silver Clearcoat Metallic:Price 0
+Pitch Black Clearcoat:Price 0
+Cloud 9 White Clearcoat:Price 0
+
+Transmission:
+Automatic:Price 0
+Standard:Price -815
+
+Brakes/Traction Control:
+Standard:Price 0
+ABS:Price 400
+ABS with Advance Trac:Price 1625
+
+Side Impact Airbags:
+None:Price 0
+Selected:Price 350
+
+Power Moonroof:
+None:Price 0
+Selected:Price 595
+
+********  Test Update Methods *********
+
+Focus Wagon ZTW
+Base Price :18445
+
+New Color:
+Fort Knox Gold Clearcoat Metallic:Price 0
+Liquid Grey Clearcoat Metallic:Price 0
+Infra-Red Clearcoat:Price 0
+Grabber Green Clearcoat Metallic:Price 0
+Sangria Red Clearcoat Metallic:Price 0
+French Blue Clearcoat Metallic:Price 0
+Twilight Blue Clearcoat Metallic:Price 0
+CD Silver Clearcoat Metallic:Price 0
+Pitch Black Clearcoat:Price 0
+Cloud 9 White Clearcoat:Price 0
+
+Transmission:
+Automatic:Price 1000
+Standard:Price -815
+
+Brakes/Traction Control:
+Standard:Price 0
+ABS:Price 400
+ABS with Advance Trac:Price 1625
+
+Side Impact Airbags:
+None:Price 0
+Selected:Price 350
+
+Power Moonroof:
+None:Price 0
+Selected:Price 595
+
+********  Test Choice *********
+
+Base price is : 18445
+Option : Fort Knox Gold Clearcoat MetallicPrice : 0
+Option : StandardPrice : -815
+Option : ABSPrice : 400
+Option : SelectedPrice : 350
+Option : SelectedPrice : 595
+The total price is 18975
+ 
+
+
+%%%%%%%%%%%%%%%%%%%%%% Output of “TestAutomobileOption.java” %%%%%%%%%%%%%%%%%%%%%%%
+Read in a car information
+Focus Wagon ZTW
+Base Price :18445
+
+Color:
+Fort Knox Gold Clearcoat Metallic:Price 0
+Liquid Grey Clearcoat Metallic:Price 0
+Infra-Red Clearcoat:Price 0
+Grabber Green Clearcoat Metallic:Price 0
+Sangria Red Clearcoat Metallic:Price 0
+French Blue Clearcoat Metallic:Price 0
+Twilight Blue Clearcoat Metallic:Price 0
+CD Silver Clearcoat Metallic:Price 0
+Pitch Black Clearcoat:Price 0
+Cloud 9 White Clearcoat:Price 0
+
+Transmission:
+Automatic:Price 0
+Standard:Price -815
+
+Brakes/Traction Control:
+Standard:Price 0
+ABS:Price 400
+ABS with Advance Trac:Price 1625
+
+Side Impact Airbags:
+None:Price 0
+Selected:Price 350
+
+Power Moonroof:
+None:Price 0
+Selected:Price 595
+
+
+
+*** Part1: tests for getters for option (set the price as an example) ***
+Option Price of Standard Transmission is -1.0
+
+
+*** Part2: tests for setters for option ***
+Focus Wagon ZTW
+Base Price :18445
+
+Color:
+Fort Knox Gold Clearcoat Metallic:Price 0
+Liquid Grey Clearcoat Metallic:Price 0
+Infra-Red Clearcoat:Price 0
+Grabber Green Clearcoat Metallic:Price 0
+Sangria Red Clearcoat Metallic:Price 0
+French Blue Clearcoat Metallic:Price 0
+Twilight Blue Clearcoat Metallic:Price 0
+CD Silver Clearcoat Metallic:Price 0
+Pitch Black Clearcoat:Price 0
+Cloud 9 White Clearcoat:Price 0
+
+Transmission:
+Automatic:Price 0
+Standard:Price -815
+Automatic:Price 9999
+
+Brakes/Traction Control:
+Standard:Price 0
+ABS:Price 400
+ABS with Advance Trac:Price 1625
+
+Side Impact Airbags:
+None:Price 0
+Selected:Price 350
+
+Power Moonroof:
+None:Price 0
+Selected:Price 595
+
+
+
+*** Part3: tests for delete methods for option ***
+Focus Wagon ZTW
+Base Price :18445
+
+Color:
+Fort Knox Gold Clearcoat Metallic:Price 0
+Liquid Grey Clearcoat Metallic:Price 0
+Infra-Red Clearcoat:Price 0
+Grabber Green Clearcoat Metallic:Price 0
+Sangria Red Clearcoat Metallic:Price 0
+French Blue Clearcoat Metallic:Price 0
+Twilight Blue Clearcoat Metallic:Price 0
+CD Silver Clearcoat Metallic:Price 0
+Pitch Black Clearcoat:Price 0
+Cloud 9 White Clearcoat:Price 0
+
+Transmission:
+Automatic:Price 0
+Standard:Price -815
+Automatic:Price 9999
+
+Brakes/Traction Control:
+Standard:Price 0
+ABS:Price 400
+ABS with Advance Trac:Price 1625
+
+Side Impact Airbags:
+None:Price 0
+Selected:Price 350
+
+Power Moonroof:
+None:Price 0
+Selected:Price 595
+
+
+
+*** Part4: tests for update methods for option ***
+Color:
+Fort Knox Gold Clearcoat Metallic:Price 0
+Liquid Grey Clearcoat Metallic:Price 0
+Infra-Red Clearcoat:Price 0
+Grabber Green Clearcoat Metallic:Price 0
+Sangria Red Clearcoat Metallic:Price 0
+French Blue Clearcoat Metallic:Price 0
+Twilight Blue Clearcoat Metallic:Price 0
+CD Silver Clearcoat Metallic:Price 7777
+Pitch Black Clearcoat:Price 0
+Cloud 9 White Clearcoat:Price 0
+
+Transmission:
+Automatic:Price 0
+Standard:Price -815
+Automatic:Price 9999
+
+Brakes/Traction Control:
+Standard:Price 0
+ABS:Price 400
+ABS with Advance Trac:Price 1625
+
+Side Impact Airbags:
+None:Price 0
+Selected:Price 350
+
+Power Moonroof:
+None:Price 0
+Selected:Price 595
+
+
+%%%%%%%%%%%%%%%%%%%%% Output of “TestAutomobileOptionSet.java” %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Read in a car information
+Focus Wagon ZTW
+Base Price :18445
+
+Color:
+Fort Knox Gold Clearcoat Metallic:Price 0
+Liquid Grey Clearcoat Metallic:Price 0
+Infra-Red Clearcoat:Price 0
+Grabber Green Clearcoat Metallic:Price 0
+Sangria Red Clearcoat Metallic:Price 0
+French Blue Clearcoat Metallic:Price 0
+Twilight Blue Clearcoat Metallic:Price 0
+CD Silver Clearcoat Metallic:Price 0
+Pitch Black Clearcoat:Price 0
+Cloud 9 White Clearcoat:Price 0
+
+Transmission:
+Automatic:Price 0
+Standard:Price -815
+
+Brakes/Traction Control:
+Standard:Price 0
+ABS:Price 400
+ABS with Advance Trac:Price 1625
+
+Side Impact Airbags:
+None:Price 0
+Selected:Price 350
+
+Power Moonroof:
+None:Price 0
+Selected:Price 595
+
+
+
+*** Part1: tests for method to get option set list size***
+Option set list size is 5
+
+
+*** Part2: tests for setters for option set ***
+Color:
+Fort Knox Gold Clearcoat Metallic:Price 0
+Liquid Grey Clearcoat Metallic:Price 0
+Infra-Red Clearcoat:Price 0
+Grabber Green Clearcoat Metallic:Price 0
+Sangria Red Clearcoat Metallic:Price 0
+French Blue Clearcoat Metallic:Price 0
+Twilight Blue Clearcoat Metallic:Price 0
+CD Silver Clearcoat Metallic:Price 0
+Pitch Black Clearcoat:Price 0
+Cloud 9 White Clearcoat:Price 0
+
+Transmission:
+Automatic:Price 0
+Standard:Price -815
+
+Brakes/Traction Control:
+Standard:Price 0
+ABS:Price 400
+ABS with Advance Trac:Price 1625
+
+Side Impact Airbags:
+None:Price 0
+Selected:Price 350
+
+Power Moonroof:
+None:Price 0
+Selected:Price 595
+
+NewOptionSet:
+
+
+
+*** Part3: tests for delete method for option set ***
+Color:
+Fort Knox Gold Clearcoat Metallic:Price 0
+Liquid Grey Clearcoat Metallic:Price 0
+Infra-Red Clearcoat:Price 0
+Grabber Green Clearcoat Metallic:Price 0
+Sangria Red Clearcoat Metallic:Price 0
+French Blue Clearcoat Metallic:Price 0
+Twilight Blue Clearcoat Metallic:Price 0
+CD Silver Clearcoat Metallic:Price 0
+Pitch Black Clearcoat:Price 0
+Cloud 9 White Clearcoat:Price 0
+
+Transmission:
+Automatic:Price 0
+Standard:Price -815
+
+Brakes/Traction Control:
+Standard:Price 0
+ABS:Price 400
+ABS with Advance Trac:Price 1625
+
+Side Impact Airbags:
+None:Price 0
+Selected:Price 350
+
+Power Moonroof:
+None:Price 0
+Selected:Price 595
+
+NewOptionSet:
+
+
+
+*** Part4: tests for update method for option set ***
+Color:
+Fort Knox Gold Clearcoat Metallic:Price 0
+Liquid Grey Clearcoat Metallic:Price 0
+Infra-Red Clearcoat:Price 0
+Grabber Green Clearcoat Metallic:Price 0
+Sangria Red Clearcoat Metallic:Price 0
+French Blue Clearcoat Metallic:Price 0
+Twilight Blue Clearcoat Metallic:Price 0
+CD Silver Clearcoat Metallic:Price 0
+Pitch Black Clearcoat:Price 0
+Cloud 9 White Clearcoat:Price 0
+
+Transmission:
+Automatic:Price 0
+Standard:Price -815
+
+Brakes/Traction Control:
+Standard:Price 0
+ABS:Price 400
+ABS with Advance Trac:Price 1625
+
+Side Impact Airbags:
+None:Price 0
+Selected:Price 350
+
+New name:
+None:Price 0
+Selected:Price 595
+
+NewOptionSet:
+

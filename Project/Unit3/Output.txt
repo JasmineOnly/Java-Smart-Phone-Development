@@ -1,0 +1,82 @@
+/* 
+ * Author : Yuanyuan Ma
+ * Andrew ID : yuanyuam
+ **/
+
+%%%%%%%%%%%%%%%%%%%%%%%% Output of “DriverMultiThreadEdit.java” %%%%%%%%%%%%%%%%%%%%%%%%%
+******* Without “synchronize”
+
+Thread2 : Change Option Set Name From Color To Set1
+Thread1 : Change Option Set Name From Color To Set1
+6 OptionNotFound
+	at indi.yuanyuam.proj1.model.Automobile.getOptionName(Automobile.java:138)
+	at indi.yuanyuam.proj1.scale.EditOption.ThreadUpdateOptionName(EditOption.java:106)
+	at indi.yuanyuam.proj1.scale.EditOption.run(EditOption.java:40)
+Thread1 : Change Option Set Name From Set1 To Set2
+Thread2 : Change Option Set Name From Set1 To Set2
+6 OptionNotFound
+	at indi.yuanyuam.proj1.model.Automobile.getOptionName(Automobile.java:138)
+	at indi.yuanyuam.proj1.scale.EditOption.ThreadUpdateOptionName(EditOption.java:106)
+	at indi.yuanyuam.proj1.scale.EditOption.run(EditOption.java:40)
+Thread5 : Change Option Set Price To 0
+Thread6 : Change Option Set Price To 0
+Thread2 : Change Option Set Name From Set2 To Set3
+6 OptionNotFound
+	at indi.yuanyuam.proj1.model.Automobile.getOptionName(Automobile.java:138)
+	at indi.yuanyuam.proj1.scale.EditOption.ThreadUpdateOptionName(EditOption.java:106)
+	at indi.yuanyuam.proj1.scale.EditOption.run(EditOption.java:40)
+Thread6 : Change Option Set Price To 1000
+Thread5 : Change Option Set Price To 1000
+Thread5 : Change Option Set Price To 2000
+Thread6 : Change Option Set Price To 2000
+Thread5 : Change Option Set Price To 3000
+Thread1 : Change Option Set Name From Set2 To Set3
+6 OptionNotFound
+	at indi.yuanyuam.proj1.model.Automobile.getOptionName(Automobile.java:138)
+	at indi.yuanyuam.proj1.scale.EditOption.ThreadUpdateOptionName(EditOption.java:106)
+	at indi.yuanyuam.proj1.scale.EditOption.run(EditOption.java:40)
+6 OptionNotFound
+	at indi.yuanyuam.proj1.model.Automobile.getOptionName(Automobile.java:138)
+	at indi.yuanyuam.proj1.scale.EditOption.ThreadUpdateOptionName(EditOption.java:106)
+	at indi.yuanyuam.proj1.scale.EditOption.run(EditOption.java:40)
+Thread2 : Change Option Set Name From Set3 To Color
+Thread6 : Change Option Set Price To 3000
+Thread1 : Change Option Set Name From Set3 To Color
+Thread5 : Change Option Set Price To 4000
+6 OptionNotFound
+	at indi.yuanyuam.proj1.model.Automobile.getOptionName(Automobile.java:138)
+	at indi.yuanyuam.proj1.scale.EditOption.ThreadUpdateOptionName(EditOption.java:106)
+	at indi.yuanyuam.proj1.scale.EditOption.run(EditOption.java:40)
+Thread4 : Change Option Set Name From Op3 To Fort Knox Gold Clearcoat Metallic
+Thread3 : Change Option Set Name From Op3 To Fort Knox Gold Clearcoat Metallic
+Thread6 : Change Option Set Price To 4000
+
+
+******** with synchronize
+Thread1 : Change Option Set Name From Color To Set1
+Thread1 : Change Option Set Name From Set1 To Set2
+Thread1 : Change Option Set Name From Set2 To Set3
+Thread1 : Change Option Set Name From Set3 To Color
+Thread6 : Change Option Set Price To 0
+Thread6 : Change Option Set Price To 1000
+Thread6 : Change Option Set Price To 2000
+Thread6 : Change Option Set Price To 3000
+Thread6 : Change Option Set Price To 4000
+Thread5 : Change Option Set Price To 0
+Thread5 : Change Option Set Price To 1000
+Thread5 : Change Option Set Price To 2000
+Thread5 : Change Option Set Price To 3000
+Thread5 : Change Option Set Price To 4000
+Thread4 : Change Option Set Name From Fort Knox Gold Clearcoat Metallic To Op1
+Thread4 : Change Option Set Name From Op1 To Op2
+Thread4 : Change Option Set Name From Op2 To Op3
+Thread4 : Change Option Set Name From Op3 To Fort Knox Gold Clearcoat Metallic
+Thread3 : Change Option Set Name From Fort Knox Gold Clearcoat Metallic To Op1
+Thread3 : Change Option Set Name From Op1 To Op2
+Thread3 : Change Option Set Name From Op2 To Op3
+Thread3 : Change Option Set Name From Op3 To Fort Knox Gold Clearcoat Metallic
+Thread2 : Change Option Set Name From Color To Set1
+Thread2 : Change Option Set Name From Set1 To Set2
+Thread2 : Change Option Set Name From Set2 To Set3
+Thread2 : Change Option Set Name From Set3 To Color
+

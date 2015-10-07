@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="indi.yuanyuam.proj1.exception.ExceptionEnum" x="25" y="13">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.test.TestAutomobileOption" x="322" y="188">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="true"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.Automobile"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.util.Util"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.model.OptionSet" x="989" y="218">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association
+            destinationClassName="indi.yuanyuam.proj1.model.OptionSet.Option"
+            endpointName="opts" kind="Simple"/>
+        <Association
+            destinationClassName="indi.yuanyuam.proj1.model.OptionSet.Option"
+            endpointName="choice" kind="Simple"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.OptionSet.Option"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.driver.Driver" x="46" y="331">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="true"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.Automobile"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.util.Util"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.adapter.ProxyAutomobile"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.driver.DriverException" x="242" y="335">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="true"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.adapter.ProxyAutomobile"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.model.AutoList" x="673" y="551">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.Automobile"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.util.Util"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.model.OptionSet.Option" x="1048" y="536">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.adapter.BuildAuto" x="269" y="448">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Extension destinationClassName="indi.yuanyuam.proj1.adapter.CreateAuto"/>
+        <Extension destinationClassName="indi.yuanyuam.proj1.adapter.EditAuto"/>
+        <Extension destinationClassName="indi.yuanyuam.proj1.adapter.FixAuto"/>
+        <Extension destinationClassName="indi.yuanyuam.proj1.adapter.UpdateAuto"/>
+        <Extension destinationClassName="indi.yuanyuam.proj1.adapter.ProxyAutomobile"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.scale.EditOption" x="995" y="28">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="indi.yuanyuam.proj1.model.Automobile"
+            endpointName="editedAuto" kind="Simple"/>
+        <Association
+            destinationClassName="indi.yuanyuam.proj1.scale.EditOptionEnum"
+            endpointName="editOptionEnum" kind="Simple"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.scale.EditOptionEnum"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.Automobile"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.adapter.CreateAuto" x="31" y="432">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.driver.DriverMutiThreadEdit"
+        x="438" y="340">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="true"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.adapter.ProxyAutomobile"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.exception.AutoException" x="191" y="14">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.exception.ExceptionEnum"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.scale.EditOptionEnum" x="676" y="21">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.model.Automobile" x="673" y="145">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association
+            destinationClassName="indi.yuanyuam.proj1.model.OptionSet"
+            endpointName="optionSetList" kind="Simple"/>
+        <Association
+            destinationClassName="indi.yuanyuam.proj1.model.OptionSet.Option"
+            endpointName="choice" kind="Simple"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.OptionSet"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.OptionSet.Option"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.adapter.EditAuto" x="388" y="439">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.exception.Helper" x="80" y="174">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.util.Util" x="388" y="21">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.Automobile"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.exception.Helper"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.test.TestAutomobileOptionSet"
+        x="480" y="189">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="true"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.Automobile"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.util.Util"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.adapter.FixAuto" x="260" y="594">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.adapter.ProxyAutomobile" x="345" y="546">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association
+            destinationClassName="indi.yuanyuam.proj1.model.AutoList"
+            endpointName="autoList" kind="Simple"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.AutoList"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.model.Automobile"/>
+        <Communication destinationClassName="indi.yuanyuam.proj1.exception.Helper"/>
+    </Class>
+    <Class name="indi.yuanyuam.proj1.adapter.UpdateAuto" x="-27" y="581">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+</ClassDiagram>

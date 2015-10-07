@@ -1,0 +1,100 @@
+/* 
+ * Author : Yuanyuan Ma
+ * Andrew ID : yuanyuam
+ **/
+
+************* Output ***************
+
+Server: connect to 6666
+Please enter the request!
+Upload
+Server: Receive the upload automobile request, please enter the file name!
+QQ.txt
+Server: Get File Name: QQ.txt
+Server: Build Car From Txt Successfully
+closed!
+
+Server: connect to 6666
+Please enter the request!
+Upload
+Server: Receive the upload automobile request, please enter the file name!
+Audi.Properties
+Server: Get File Name: Audi.Properties
+Server: build Auto successfully
+closed!
+
+Server: connect to 6666
+Please enter the request!
+Upload
+Server: Receive the upload automobile request, please enter the file name!
+Focus.Properties
+Server: Get File Name: Focus.Properties
+Server: build Auto successfully
+closed!
+
+Server: connect to 6666
+Please enter the request!
+Get
+Server: Receive the set request
+Server: transfer AutoList successfully
+Auto Model Options :
+Model 0 : QQ
+Model 1 : AudiA6
+Model 2 : FordFocus
+Select a number of model to configure
+2
+Server: Transfer automobile succesfully
+Start Configure the Car
+Color
+0 Fort Knox Gold Clearcoat Metallic:Price 0
+1 Liquid Grey Clearcoat Metallic:Price 0
+2 Infra-Red Clearcoat:Price 0
+3 Grabber Green Clearcoat Metallic:Price 0
+4 Sangria Red Clearcoat Metallic:Price 0
+5 French Blue Clearcoat Metallic:Price 0
+6 Twilight Blue Clearcoat Metallic:Price 0
+7 CD Silver Clearcoat Metallic:Price 0
+8 Pitch Black Clearcoat:Price 0
+9 Cloud 9 White Clearcoat:Price 0
+select your choice for (Color)
+0
+
+Transmission
+0 Automatic:Price 0
+1 Standard:Price 815
+select your choice for (Transmission)
+1
+
+Brakes/Traction Control
+0 Standard:Price 0
+1 ABS:Price 400
+2 ABS with Advance Trac:Price 1625
+select your choice for (Brakes/Traction Control)
+2
+
+Side Impact Airbags
+0 None:Price 0
+1 Selected:Price 350
+select your choice for (Side Impact Airbags)
+1
+
+Power Moonroof
+0 None:Price 0
+1 Selected:Price 595
+select your choice for (Power Moonroof)
+1
+
+Configured Car For Your Choice
+FordFocus
+Option : Fort Knox Gold Clearcoat MetallicPrice : 0
+Option : StandardPrice : 815
+Option : ABS with Advance TracPrice : 1625
+Option : SelectedPrice : 350
+Option : SelectedPrice : 595
+
+closed!
+
+Server: connect to 6666
+Please enter the request!
+Quit
+closed!
